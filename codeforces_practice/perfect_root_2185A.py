@@ -1,0 +1,13 @@
+cases = int(input())
+lst = []
+for _ in range(cases) :
+    a= int(input())
+    lst.append(a)
+    
+for num in lst:
+    ans=[]
+    count=1
+    for _ in range(num):
+        print(count, end =" ")
+        count+=1
+    print()
